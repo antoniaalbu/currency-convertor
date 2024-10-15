@@ -263,3 +263,16 @@ select {
 }
 
 
+@media (max-width: 478px) {
+    .centered-text{
+        position: fixed; 
+        text-align: left;
+        top: 50%; 
+        left: 20%; 
+        width: 30%;
+        transform: translate(-50%, -50%); 
+        color: white; 
+        font-size: 15px;
+        z-index: -1;
+    }
+}
