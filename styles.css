@@ -287,4 +287,10 @@ select {
         height: 120px; 
         border-radius: 10px; 
     }
+
+    .button-container h1 {
+        margin: 0; 
+        font-size: 30px; 
+    }
+    
 }
