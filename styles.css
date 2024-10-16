@@ -268,11 +268,23 @@ select {
         position: fixed; 
         text-align: left;
         top: 50%; 
-        left: 20%; 
+        left: 22%; 
         width: 30%;
         transform: translate(-50%, -50%); 
         color: white; 
-        font-size: 15px;
+        font-size: 13px;
         z-index: -1;
+    }
+
+    .button-container {
+        position: fixed;
+        top: 50%; 
+        left: 70%; 
+        transform: translate(-50%, -50%); 
+        bottom: auto; 
+        right: auto; 
+        width: 150px; 
+        height: 120px; 
+        border-radius: 10px; 
     }
 }
